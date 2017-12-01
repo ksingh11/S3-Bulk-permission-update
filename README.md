@@ -11,7 +11,10 @@ Detailed documentation on S3: [Amazon S3 (BOTO3)](http://boto3.readthedocs.io/en
 
 ## Installation:
 ```shell
-$ virtualenv [-p /usr/bin/python2.7] venv
+$ git clone git@github.com:ksingh11/S3-Bulk-permission-update.git
+$ cd cd S3-Bulk-permission-update/
+$ virtualenv venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt
 $ python script.py
 ```
