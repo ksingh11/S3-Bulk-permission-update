@@ -4,7 +4,7 @@ Update file permissions on S3, when they are too many in numbers. Also, the scri
 Detailed documentation on S3: [Amazon S3 (BOTO3)](http://boto3.readthedocs.io/en/latest/guide/migrations3.html)
 
 
-# Get access key and secret:
+## Get access key and secret:
 > Create a new AMI user on AWS console, and grant **Programmatic Access** to the user.
 >
 > Attach policy **AmazonS3FullAccess**, from the section __'Attach existing policies directly'__.
@@ -14,7 +14,7 @@ Detailed documentation on S3: [Amazon S3 (BOTO3)](http://boto3.readthedocs.io/en
 ## Configure:
 > Please edit conf.py before moving forward.
 > 
-> To iterate all buckets set AWS_STORAGE_BUCKET_NAME = None, otherwise specify bucket name.
+> To iterate all buckets set AWS_STORAGE_BUCKET_NAME = None, otherwise specify the particular bucket name to be modified.
 
 ## Installation:
 ```shell
