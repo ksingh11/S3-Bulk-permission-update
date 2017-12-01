@@ -4,6 +4,13 @@ Update file permissions on S3, when they are too many in numbers. Also, the scri
 Detailed documentation on S3: [Amazon S3 (BOTO3)](http://boto3.readthedocs.io/en/latest/guide/migrations3.html)
 
 
+# Get access key and secret:
+> Create a new AMI user on AWS console, and grant Programmatic access to the user.
+>
+> Attach policy **AmazonS3FullAccess**, from the section __'Attach existing policies directly'__.
+>
+> Get **Access key ID** and **Secret access key**, to be used in script.
+
 ## Configure:
 > Please edit conf.py before moving forward.
 > 
