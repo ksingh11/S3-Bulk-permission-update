@@ -5,7 +5,7 @@ Detailed documentation on S3: [Amazon S3 (BOTO3)](http://boto3.readthedocs.io/en
 
 
 # Get access key and secret:
-> Create a new AMI user on AWS console, and grant Programmatic access to the user.
+> Create a new AMI user on AWS console, and grant **Programmatic Access** to the user.
 >
 > Attach policy **AmazonS3FullAccess**, from the section __'Attach existing policies directly'__.
 >
